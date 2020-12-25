@@ -1,0 +1,458 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.block-one {
+    height: 800px;
+    border: 1px solid black;
+    background-image: url(./images/bgc.png);
+    background-size: cover;
+}
+
+.logo {
+    width: 175px;
+    margin-left: 180px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* выравнивание по горизонтали*/
+    align-items: center;
+    /*выравнивание по вртикали*/
+    border-bottom: 1px solid white;
+    padding: 33px 0 33px 0;
+    /* отступ ичкериден */
+    color: #FFFFFF;
+    /* тексттин тусу */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    /* создун узундугубийиктиги*/
+}
+
+.navigator ul {
+    display: flex;
+    list-style: none;
+    /* маркерди жоготот */
+}
+
+.navigator ul li {
+    margin-right: 47px;
+    /* отступ он жактан */
+}
+
+.search-block {
+    margin-right: 180px;
+}
+
+.block-one-content {
+    /* ЭКСПОФОРУМ */
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    width: 420px;
+    height: 74px;
+    left: 403px;
+    top: 274px;
+}
+
+/*Контейнердин шаблону*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Биринчи блоктун баскыч-щилтемеси*/
+/* 1em=16px */
+.block {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 255px;
+    height: auto;
+}
+
+.block p {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    white-space: pre-line;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.block a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.block a:hover {
+	text-decoration: underline;
+}
+
+.item-one {
+    background-color: #2378FC;
+    margin-bottom: 30px;
+}
+
+.item-two {
+    background-color: #30BCC9;
+    margin-bottom: 30px;
+}
+
+.item-three {
+    background-color: #FFC41E;
+}
+
+.item-four {
+    background-color: #F6404F;
+}
+
+.block-one-btns-group {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 274px;
+    /* эгерде,элементтер батпай калса,ылдыйга тушуруп салуу */
+}
+
+.description {
+    margin-top: 184px;
+    color: #FFFFFF;
+}
+
+.description .title {
+    text-transform: uppercase;
+    /*тамгалардын корунучун озгортот*/
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 160%;
+}
+
+.description .text {
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+.description a {
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+/* Block 2 */
+
+
+.block-two {
+	background: #2378FC;
+}
+
+.block-two-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 75px 0px;
+	color: #FFFFFF;
+}
+
+.block-two-content ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.block-two-content ul li {
+	margin-bottom: 15px;
+}
+
+.block-two-content a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.block-two-content a:hover {
+	color: #FFC41E;
+	text-decoration: underline;
+}
+
+/* Block 3 */
+.block-three {
+	background: #FFC41E;
+	padding: 75px 0;
+}
+
+.block-three-content .title-block {
+	display: flex;
+	justify-content: space-between;
+} 
+
+.title-block h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+}
+
+.title-block a {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #2E373B;
+}
+
+.items-box {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+
+.items-box .item {
+	width: 350px;
+}
+
+.items-box .item h2 {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 130%;
+	letter-spacing: -0.01em;
+	color: #F6404F;
+}
+
+.items-box .item .date {
+	font-size: 14px;
+	line-height: 135%;
+	color: #2E373B;
+	margin-top: 20px;
+}
+.items-box .item img {
+	width: 100%;
+	height: 240px;
+}
+
+.sub-text {
+    font-size: 16px;
+    line-height: 135%;
+}
+
+/*block 4*/
+
+.block-four {
+    background: #FAF3E3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/*block 4.1*/
+
+.block-four {
+    padding: 75px 0;
+}
+
+.img-post {
+
+    padding-top: 7
+5px;
+    width: 445px;
+    height: 215px;
+
+}
+
+.img-post-four {
+    display: flex;
+    width: 445px;
+    height: 215px;
+    padding-bottom: 59px;
+}
+
+/*block 4.2*/
+
+.block-four-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-bottom: 85px;
+}
+
+.title-block-four {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-left: 125px;
+
+}
+
+.title-block-four h2 {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    /* identical to box height, or 39px */
+
+    letter-spacing: -0.01em;
+
+    color: #2E373B;
+    margin-top: 75px;
+}
+
+.title-block-four a {
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+
+    color: #2E373B;
+    margin-top: 81px;
+
+}
+.title-block-four ul li h2 {
+    margin-top: 0px;
+}
+.title-block-four ul li a {
+    margin-top: 0px;
+}
+.title-block-four ul {
+    display: flex;
+    flex-flow: column;
+    padding-left: 0;
+}
+
+.title-block-four ul img {
+    width: 160px;
+    height: 120px;
+}
+
+.title-block-four ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-right: 30px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.title-block-four ul li h3 {
+    margin-left: 30px;
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+
+    letter-spacing: -0.01em;
+
+    /* other / black */
+
+    color: #2E373B;
+}
+
+.title-block-four ul li p {
+    display: flex;
+    margin-left: 30px;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+
+    /* Main / Red */
+
+    color: #F6404F;
+
+}
+
+/* Блок 5 */
+.block-five {
+    background: #30BCC9;
+    padding: 60px 0;
+}
+
+.block-five-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-five-content ul a {
+    text-decoration: none;
+}
+
+.block-five-content ul {
+    list-style: none;
+}
+.block-five-content ul li a {
+    color: #E0E0E0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.block-five-content h2 {
+    font-family: Plumb;
+    color: #FFFFFF;
+}
+
+.block-five-content p {
+    color: #E0E0E0;
+}
+
+.block-five-content li a {
+    text-decoration: none;
+}
+.block-five-content li a:hover {
+    text-decoration: underline;
+    color: #FFC41E;
+}
+
+.foto {
+    margin: 30px 30px 50px 0;
+}
+
+.block-five-content ul {
+    padding-left: 0;
+}
+
+.vvedite {
+    position: absolute;
+    left: 1300px;
+    margin-top: 10px;
+    border: none;
+}
+
